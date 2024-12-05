@@ -8,7 +8,7 @@ load_dotenv()
 
 # Fetch the user token from environment variables
 USER_TOKEN = os.getenv('USER_TOKEN')  # Fetch token from .env file
-CHANNEL_ID = '769451104680804402'  # Replace with your actual channel ID
+CHANNEL_ID = '123456789'  # Replace with your actual channel ID
 
 # Ensure the token is loaded
 if not USER_TOKEN:
